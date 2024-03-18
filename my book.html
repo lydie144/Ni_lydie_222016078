@@ -1,0 +1,211 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body bgcolor="grey">
+	<a href="./homes.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">HOMES</a>
+<a href="./about us.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">ABOUT US</a>
+<a href="./contact.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">CONTACT</a>
+<a href="./service.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">SERVICE</a>
+<a href="./table.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">TABLE</a>
+<a href="./form.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">FORM</a>
+<a href="./my book.html" style="padding: 10px;color: white;background-color: black;text-decoration: none;margin-right: 15px;">MY BOOK</a></li><br><br><br><br>
+	<h1>DATABASE AND JAVA WITH ORGANIZING MUSIC FESTIVAL</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>organizing_music_festival.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Admin Table</b></li>
+
+			<p>Admin table database structure This is table is table that will be only created by admin and will hold other system users apart from admin  will give them email and password that they will use to login and access the project or system, and also t used to register if she/he’s don’t have an account so once you must to create account in order to login and access or use the system.
+            Note: the created Admin will not have same ability and right in the system.</p></br>
+
+			<li><b>LOGIN Table</b></li>
+
+			<p>
+This the first page of the system where system will choose destination depending on the function he/she possess in the system.
+</p> </br>
+
+
+			<li><b>REGISTRATION Table</b></li>
+
+			<p>As when adimn and user not have account are first to create an account in the registration form.
+			include id,name ,address,etc</p></br>
+
+			<li><b>artists Table</b></li>
+
+			
+<p>As when artists are come to accessing our system are go to access this artist form.
+This the page on which new created artist will use given username and password that are recorded in database called in table 
+called users to login so that he/she can access the system features he/she is allowed to.
+ Every artist must have access on system depending his/her type, thus this means that if you are HRM you have to have access referring to employee recruitment and hiring not procurement. artist type from artist table is the key element to give artist on system access.
+</p></br>
+
+            <li><b>performances Table</b></li>
+
+			<p>It is forms are helps organizer to get information about performances thaty are done in all festival including performance id, start time,duration.</p></br>
+
+			<li><b>attendees Table</b></li>
+
+			<p>It is helps user to attendees when he/she need to attend festival.
+			Includes id, first name, last name,email. </p></br>
+
+<li><b>festivals Table</b></li>
+
+			<p>Providing administrators and artist with the tools they need to effectively organize and access festival data 
+			and festival form would be to facilitate the management of information related to 
+festival.    
+ </p></br>
+
+<li><b>tickets Table</b></li>
+
+			<p>The ticket form primarily serves to manage information related to the ticket in which tickets are available. And providing attendee with the tools they need to effectively organize and access ticket data.
+</p></br>
+			   
+<li><b>stages Table</b></li></ol>
+
+			<p>The stage form facilitates the management of information related to the stage.
+And providing artists and performances with the tools they need to effectively organize and access stage.
+
+</p></br>
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <b>Attributes of Admin Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in Admin table:</br>
+
+    
+    <p><b><i>username:</i></b> The column which  represents username of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which  represents  password of the user.</br></p>
+
+<b>Attributes of login Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in login table:</br>
+
+    
+    <p><b><i>username:</i></b> The column which are representing username of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which are representing  password of the user.</br></p>
+<b>Attributes of registration Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in registration  table:</br>
+
+ <p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br></p> 
+
+    <p><b><i>phone:</i></b> The column which represents telephone number of user.</br></p>
+
+    <p><b><i>gender:</i></b> The column which are representing or store gender of user like female and male.</br></p> 
+
+    <p><b><i>address</i></b> The column which  represents address of user </br></p>  
+
+    <p><b><i>DoB:</i></b> The column which  represents Date of Birth of user.</br></p>
+
+    <p><b><i>username</i></b> The column which  represents Email of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which  represents  password of the user.</br></p>
+
+
+   <b>Attributes of attendees Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in attendees  table:</br>
+
+ <p><b><i>fname, lname:</i></b> The columns which are representing first name and last name of user.</br></p> 
+
+    <p><b><i>email</i></b> The column which  represents email of attendees.</br></p>
+
+   <p><b><i>phone</i></b> The column which represents phone of attendees </br></p>  
+
+   
+
+ <b>Attributes of stages Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in stages  table:</br>
+
+ <p><b><i>name</i></b> The columns which represents name of stage.</br></p> 
+
+    <p><b><i>capacity</i></b> The column which represents capacity of stage.</br></p>
+
+  
+
+   <b>Attributes of tickets Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in tickets table:</br>
+
+ <p><b><i>id</i></b> The columns which  represents id of tickets.</br></p> 
+
+    <p><b><i>purchasedate</i></b> The column which  represents purchasedate of tickets.</br></p>
+
+   <p><b><i>price</i></b> The column which  represents price of  tickets </br></p>  
+    
+   
+   
+ <b>Attributes of performances Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in performance  table:</br>
+
+ <p><b><i>starttime:</i></b> The columns which  represents starttime of performance.</br></p> 
+
+    <p><b><i>duration </i></b> The column which  represents duration  of performance .</br></p>
+
+
+    <b>Attributes of festivals Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in festival table:</br>
+
+ <p><b><i>name:</i></b> The columns which  represents  name  of festival.</br></p> 
+
+    <p><b><i>location</i></b> The column which  represents location of festival.</br></p>
+    
+
+     <b>Attributes of ARTISTS Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in artists table:</br>
+
+ <p><b><i>name:</i></b> The columns which  represents name of artist.</br></p> 
+
+    <p><b><i>genre</i></b> The column which  represents genre of artist.</br></p>
+
+   <p><b><i>website</i></b> The column which  represents website of artists </br></p>  
+
+   <h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it copy with full analyzed system.
+</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<p><b>Eclipse IDE: an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and, until 2016, was the most popular.  </p><br>
+
+<p><b>JAR stands for Java Archive. It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br>
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+
+<b><i>FESTIVAL Form</i></b></br>
+<img src="festival.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>STAGE Form</i></b></br>
+<img src="stage.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>PERFORMANCE Form</i></b></br>
+<img src="performance.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>ATTENDEE Form</i></b></br>
+<img src="attendee.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>TICKET Form</i></b></br>
+<img src="ticket.png" width=500 height=200><br><br><br><br><br>
+
+
+
+
+
+<
+ </ul>
+		
+	</ol>
+
+
+      
+		
+	
+	
+	</body>
+	</html>
